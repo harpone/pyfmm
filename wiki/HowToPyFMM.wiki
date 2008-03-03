@@ -1,0 +1,30 @@
+This is  a short guide on how to install and use python FMM.
+
+= Introduction =
+
+Before downloading pyFMM check that your system fulfill all the requirements. This brief
+guide will introduce you on how to install, and use pyFMM.
+
+==Pre-requisites==
+
+  * Python 2.5
+  * Numpy
+  * Scipy (recommended)
+
+
+==Installation==
+
+After downloading and extracting the latest version of the code, you need to add the 
+folder to the PYTHONPATH system variable, e.g.:
+
+svn 
+
+to do this on Linux / Mac OS X: 
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
