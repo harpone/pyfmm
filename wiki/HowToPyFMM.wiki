@@ -26,11 +26,12 @@ As an alternative, you can download the source of the current version v1.X.X as 
 tar -xzf pyFMMv1.X.X.tar.gz
 }}}
 
-After downloading (and extracting) the latest version of the code, you need to add the folder to the PYTHONPATH system variable, e.g.:
+After downloading (and extracting) the latest version of the code, you need to add the folder of the package to the PYTHONPATH system variable, e.g.:
+Let suppose that the final folder is /Users/user/pyFMMv1.X.X
 {{{
-export PYTHONPATH=${PYTHONPATH}:$PWD/pyFMMv1.X.X
+export PYTHONPATH=${PYTHONPATH}:/Users/user/pyFMMv1.X.X
 }}}
-Python should be able to detect the pyFMM package. So you are ready to test the installation. To do this, you can run our test program that is located in the Test folder of the package:
+After this, the python interpreter should be able to detect the pyFMM package. So you are ready to test the installation. To do this, you can run our test program that is located in the Test folder of the package:
 {{{
 python pyFMMv1.X.X/Test/LambOseenTest.py
 }}}
