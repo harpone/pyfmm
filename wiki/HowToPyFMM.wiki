@@ -17,9 +17,13 @@ guide will introduce you on how to install, and use pyFMM.
 After downloading and extracting the latest version of the code, you need to add the 
 folder to the PYTHONPATH system variable, e.g.:
 
-svn 
+===Linux / Mac OS X===
 
-to do this on Linux / Mac OS X: 
+To download the source from the svn do from (You need to have installed svn), from
+a terminal shell run
+{{{
+svn checkout http://pyfmm.googlecode.com/svn/trunk/ pyfmm-read-only
+}}}
 
 
 = Details =
